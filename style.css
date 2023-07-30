@@ -1,0 +1,55 @@
+*{
+    box-sizing:border-box;
+}
+
+.tasks-input{
+    width: 80%;
+    padding: 4%;
+    margin-right: 6%;
+    margin-left: 6%;
+    /* margin: 40px 20%; */
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    padding: 3%;
+    width: 60%;
+    margin-right: 5%;
+    border: none;
+    background-color:#fff;
+}
+.ADD{
+    background-color: indianred;
+    color: #fff;
+    border: 2px solid indianred;
+    width: 15%;
+    height: 70px;
+    border-radius: 15%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.tasks{
+    width: 80%;
+    margin: 35px 6% 0px 6%;
+    padding: 50px;
+    background-color:#eee;
+}
+.task{
+    background-color: #fff;
+    margin: 25px;
+    padding: 4%;
+    font-size: 33px;
+}
+#done{
+    opacity:50%;
+}
+.delete{
+    background-color: red;
+    position: relative;
+    left: 80%;
+    padding: 17px;
+    color: #fff;
+    border-radius: 20%;
+    cursor:pointer;
+}
